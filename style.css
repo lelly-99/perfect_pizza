@@ -1,0 +1,58 @@
+body {
+background-color: lightsteelblue;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+.clearfix {
+    overflow: auto;
+  }
+.pizza {
+    border: 1px solid  lightsteelblue;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.3em;
+    flex : 1
+}
+.medium_pizza {
+    background-color: rgb(143, 197, 204);
+}
+
+.large_pizza {
+    background-color: rgb(101, 196, 196);
+}
+
+.small_pizza {
+    background-color: rgb(206, 248, 248);
+}
+
+.contact_details {
+    background-color: rgb(54, 113, 113);
+}
+
+.details {
+    display: flex;
+    width: 50%;
+}
+
+.contact {
+    flex: 1;
+    border: 1 solid;
+    margin: 5px;
+}
+
+.address {
+    padding-left: 100px;
+}
+
+@media (min-width: 960px) {
+    .pizzas {
+        display: flex;
+    }
+
+    .contact {
+        display: flex;
+    }
+}
