@@ -52,7 +52,9 @@ h1 {
         display: flex;
     }
 
-    .contact {
-        display: flex;
-    }
+}
+
+p {
+    -webkit-text-size-adjust: none;
+    text-size-adjust: auto;
 }
